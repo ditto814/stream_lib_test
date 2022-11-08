@@ -4,11 +4,11 @@ import numpy as np
 
 # 헤드라인
 st.write("# 보험료 예측")
+st.image('https://i.pinimg.com/564x/ca/06/6d/ca066d23810e49a0ff5072eeba938428.jpg')
+st.header("헤더")
+st.subheader("서브헤더")
 st.write(['레노버', '애플 <', 100])
-st.header("## 헤더")
-st.subheader("### 서브헤더")
 st.code('for i in range(10) : voo()')
-st.image('https://i.pinimg.com/564x/28/65/4d/28654de686886bf7fbe0aea597f53827.jpg')
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
