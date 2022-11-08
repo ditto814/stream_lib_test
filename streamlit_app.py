@@ -10,8 +10,8 @@ st.write("# 보험료 예측")
 st.image('https://i.pinimg.com/564x/ca/06/6d/ca066d23810e49a0ff5072eeba938428.jpg', width = 300)
 st.header("빅테이터 16기")
 st.subheader("이준형")
-st.write(['1달러' , '>' , '1천원'], '->', 1387 > 1000)
-st.code('print("Hello streamlit)')
+st.write(['1달러 > 1천원'], '->', 1387 > 1000)
+st.code('print("Hello streamlit")')
 
 # 첫번째 행
 r1_col1, r1_col2, r1_col3 = st.columns(3)
