@@ -2,9 +2,14 @@ import streamlit as st
 import joblib
 import numpy as np
 
+# https://docs.streamlit.io/library/cheatsheet
+# 스트림립 도큐먼트 각종 태그 가이드
+
 # 헤드라인
 st.write("# 보험료 예측")
-st.image('https://i.pinimg.com/564x/ca/06/6d/ca066d23810e49a0ff5072eeba938428.jpg', width=100)
+st.image('https://i.pinimg.com/564x/ca/06/6d/ca066d23810e49a0ff5072eeba938428.jpg', width = 300)
+st.image('https://i.pinimg.com/564x/ca/06/6d/ca066d23810e49a0ff5072eeba938428.jpg', width = 300)
+st.image('https://i.pinimg.com/564x/ca/06/6d/ca066d23810e49a0ff5072eeba938428.jpg', width = 300)
 st.header("헤더")
 st.subheader("서브헤더")
 # st.write(['레노버', '애플 <', 100])
