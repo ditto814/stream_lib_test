@@ -18,7 +18,7 @@ children = r1_col3.number_input("미성년자", step=1, value=0)
 # 두번째 행
 r2_col1, r2_col2, r2_col3 = st.columns(3)
 
-r2_col1.write("흡연자")
+r2_col1.write("흡연여부")
 smoker = r2_col1.checkbox("")
 
 sex_option = ("남성", "여성")
